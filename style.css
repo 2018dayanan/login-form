@@ -1,0 +1,121 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-image: url(assets/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: cursive;
+}
+.loginbox {
+	width: 320px;
+	height: 420px;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 4px 50px 4px 50px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	padding: 50px 20px;
+
+
+}
+p{
+	
+	padding: 0;
+	font-weight: bold;
+}
+h1 {
+	
+	text-align: center;
+	padding: 0 0 16px;
+	font-size: 30px;
+}
+.loginbox a {
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+
+}
+
+.avtar {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: -50px;
+	left: 35%;
+}
+.loginbox input[type="email"], input[type="password"] {
+	width: 100%;
+    height: 40px;
+    color: #00f;
+    border-radius: 4px 10px 4px 10px ;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-family: unset;
+    padding: 2px;
+    font-size: 18px;
+
+
+}
+.loginbox  input[type="submit"]{
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	margin: 14px 0 10px 0;
+	background-color: #fb2525;
+	border: none;
+	border-radius: 4px 10px 4px 10px ;
+	font-size: 16px;
+
+}
+
+.loginbox a:hover{
+	color: green;
+}
+.loginbox input[type="submit"]{
+
+}
+.loginbox  input[type="submit"]:hover{
+	background-color: #26c6da;
+	color: #000;
+	font-family: cursive;
+	font-weight: bold;
+}
+/*------------------------------------------------------------
+ Forgot password
+ ------------------------------------------------------------*/
+ .forgot {
+ 	width: 320px;
+ 	height: 250px;
+ 	background-color: rgba(0,0,0,0.7);
+ 	color: #fff;
+ 	position: absolute;
+ 	left: 50%;
+ 	top:50%;
+ 	transform: translate(-50%, -50%);
+ 	border-radius: 10px;
+ 	padding: 10px 10px 10px 10px;
+ 	 }
+ .forgot input[type="phone"]{
+ 	width: 100%;
+ 	height: 40px;
+ 	background: transparent;
+ 	border: none;
+ 	outline: none;
+ 	color: #fff;
+ 	border-bottom: 2px solid #fff;
+ 	margin-bottom: 16px;
+ 	font-size: 14px;
+ 	font-weight: bold;
+
+ }
+ .forgot input[type="submit"]{
+ 	width:100%;
+ 	height: 40px;
+ 	outline: none;
+ 	border: none;
+ 	border-radius: 10px;
+ 	background-color:#fb2525;
+ }
