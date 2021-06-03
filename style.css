@@ -4,7 +4,7 @@ body {
 	background-image: url(assets/bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	font-family: cursive;
+	font-family: sans-serif;
 }
 .loginbox {
 	width: 320px;
@@ -121,4 +121,10 @@ h1 {
  	border: none;
  	border-radius: 10px;
  	background-color:#fb2525;
+ }
+ .forgot input[type="submit"]:hover{
+ 	background-color: transparent;
+ 	border: solid 1.5px;
+ 	color: white;
+ 	transition: all 0.5s;
  }
