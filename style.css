@@ -44,6 +44,8 @@ h1 {
 	position: absolute;
 	top: -50px;
 	left: 35%;
+	border-radius: 50%;
+	
 }
 .loginbox input[type="email"], input[type="password"] {
 	width: 100%;
@@ -54,7 +56,8 @@ h1 {
     outline: none;
     color: #fff;
     font-family: unset;
-    padding: 2px;
+    padding-left: 8px;
+    padding-right: 0;
     font-size: 18px;
 
 
@@ -80,7 +83,7 @@ h1 {
 .loginbox  input[type="submit"]:hover{
 	background-color: #26c6da;
 	color: #000;
-	font-family: cursive;
+	/*font-family: cursive;*/
 	font-weight: bold;
 }
 /*------------------------------------------------------------
